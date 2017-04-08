@@ -1,5 +1,5 @@
 # Tranquilpeak
-# Version : 1.9.1
+# Version : 1.10.0
 # Author : Louis Barranqueiro
 
 # I STRONGLY recommend you to use a CDN to speed up loading of pages.
@@ -58,10 +58,22 @@ sidebar:
             url: /#about
             icon: question
     author_links:
-        # github:
-        #     title: global.github
-        #     url: https://github.com/
-        #     icon: github
+         github:
+             title: global.github
+             url: https://github.com/luxiaowu
+             icon: github
+         segment_fault:
+             title: "segmentfault"
+             url: https://segmentfault.com/u/xinyuandizipian
+             icon: stack-overflow
+         zhihu:
+             title: "知乎"
+             url: https://www.zhihu.com/people/luxiaowu
+             icon: quora
+         weibo:
+             title: "微博"
+             url: http://weibo.com/u/1745084590
+             icon: weibo
         # stack_overflow:
         #     title: global.stack_overflow
         #     url: http://stackoverflow.com/users
@@ -86,11 +98,11 @@ sidebar:
         #     title: global.mail
         #     url: mailto:
         #     icon: envelope-o
-    rss:
-        rss:
-            title: global.rss
-            url: /atom.xml
-            icon: rss
+#    rss:
+#        rss:
+#            title: global.rss
+#            url: /atom.xml
+#            icon: rss
 
 
 # Header configuration
@@ -112,13 +124,13 @@ header:
 # Author
 # Your biography and your job is editable in each languages files in `languages` folder
 author:
-    email:
+    email: 593419773@qq.com
     location:
     # Your profile picture located in folder `source/_images/` (development)
     # or in `source/assets/images/` (production)
     # or you can use an external url
     # Overwritten by your gravatar image if `gravatar_email` is filled
-    picture:
+    picture: avatar.png
     # Your Twitter username without the @. E.g : `tranquilpeak`
     twitter:
     # Your personal google plus profile id, not your blog or business page id.
@@ -171,8 +183,8 @@ favicon:
 image_gallery: true
 # Pagination behavior of archive, category and tag pages (false: pagination disabled, true: pagination enabled)
 archive_pagination: true
-category_pagination: true
-tag_pagination: true
+category_pagination: false
+tag_pagination: false
 
 
 # Integrated services
@@ -181,7 +193,7 @@ tag_pagination: true
 # Your Disqus shortname
 disqus_shortname:
 # Your Duoshuo shortname
-duoshuo_shortname: luxiaowu
+duoshuo_shortname:
 # Your Google analystics web property ID : UA-XXXXX-X
 google_analytics_id:
 # Your Baidu analystics web property ID : 9505a5af654a2478f93fd6c0ae4f687d
@@ -192,3 +204,45 @@ gravatar_email:
 fb_admin_ids:
 # Your Facebook app id used to connect your blog with your facebook app account (Facebook Insights). E.g : 9841307
 fb_app_id:
+
+
+# Sharing options
+# Comment and uncomment to enable or disable sharing options
+# If you wanna add a sharing option, read user documentation :
+# Tranquilpeak configuration > Theme configuration > sharing-options
+sharing_options:
+    facebook:
+        icon: "fa-facebook-official"
+        url: "https://www.facebook.com/sharer/sharer.php?u={{post.permalink}}"
+    twitter:
+        icon: "fa-twitter"
+        url: "https://twitter.com/intent/tweet?text={{post.permalink}}"
+    google_plus:
+        icon: "fa-google-plus"
+        url: "https://plus.google.com/share?url={{post.permalink}}"
+    # Asian social networks
+    # weibo:
+    #     title: "Weibo"
+    #     icon: "fa-weibo"
+    #     url: "http://service.weibo.com/share/share.php?&title={{post.permalink}}"
+    # qq:
+    #     title: "QQ"
+    #     icon: "fa-qq"
+    #     url: "http://connect.qq.com/widget/shareqq/index.html?url={{post.permalink}}&title={{post.title}}"
+    # qzone:
+    #     title: "Qzone"
+    #     icon: "fa-star"
+    #     url: "http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url={{post.permalink}}"
+    # renren:
+    #     title: "Renren"
+    #     icon: "fa-renren"
+    #     url: "http://widget.renren.com/dialog/share?resourceUrl={{post.permalink}}"
+    # Russian social networks
+    # vk:
+    #     title: "VK"
+    #     icon: "fa-vk"
+    #     url: "https://vk.com/share.php?url={{post.permalink}}"
+    # odnoklassniki:
+    #     title: "Odnoklassniki"
+    #     icon: "fa-odnoklassniki"
+    #     url: "https://connect.ok.ru/offer?url={{post.permalink}}"
