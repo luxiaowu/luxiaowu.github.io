@@ -1,2 +1,3 @@
 # luxiaowu.github.io
-Hexo
+
+Hexo[https://hexo.io/zh-cn/]
