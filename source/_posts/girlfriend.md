@@ -15,7 +15,6 @@ coverImage: city-750.jpg
 coverCaption: "A beautiful sunrise"
 coverMeta: out
 coverSize: full
-coverImage: city-750.jpg
 gallery:
     - city-750.jpg "New York"
     - city-750.jpg "Paris"
